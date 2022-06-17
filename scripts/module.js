@@ -1,7 +1,7 @@
-import navbar from "../comoponents/navbar.js";
-import header from "../comoponents/header.js";
-import footer from "../comoponents/footer.js";
-import bottom from "../comoponents/bottomdiv.js";
+import navbar from "../components/navbar.js";
+import header from "../components/header.js";
+import footer from "../components/footer.js";
+import bottom from "../components/bottomdiv.js";
 document.getElementById("navbar").innerHTML = navbar();
 document.getElementById("logo_section").innerHTML = header();
 document.getElementById("container").innerHTML = footer();

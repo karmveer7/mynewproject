@@ -1,8 +1,5 @@
 var getData = async () => {
-    // let todayDate = new Date().toISOString().split("T")[0];
-  
-    // let res = await fetch(`https://newsapi.org/v2/everything?q=${query}&from=${todayDate}&sortBy=publishedAt&language=en&apiKey=7262b1f4a1db43dcaf93474f49f4a0c7`);
-    let res = {
+let res = {
       status: "ok",
       totalResults: 1241,
       articles: [
